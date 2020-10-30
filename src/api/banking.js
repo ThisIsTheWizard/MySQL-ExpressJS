@@ -3,10 +3,10 @@ const mysql = require('mysql');
 const router = express.Router();
 
 const db = mysql.createConnection({
-	host: '208.91.199.125',
-	user: 'thewizar_dskbank',
-	password: '4567890321',
-	database: 'thewizar_bank',
+	host: '127.0.0.0',
+	user: 'root
+	password: '',
+	database: 'banking
 	multipleStatements: true
 });
 
